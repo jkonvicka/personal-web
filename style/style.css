@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: black;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  font-size: 36;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#mail-icon {
+    font-size: 36px;
+}
+
+
+.main-text h1{
+    font-size: 40px;
+}
+
+
+.pt-255{
+    padding-top: 255px;
+}
+
+.profile-image{
+    max-width: 600px;
+}
+
+.blink-span-1s{
+    animation: blinker 1s linear infinite;
+  }
+
+  .blink-span-2s{
+    animation: blinker 2s linear infinite;
+  }
+  
+  @keyframes blinker{
+    50%{
+      opacity: 0;
+    }
+  }
+
+.social-icon{
+    width: 60px;
+}
+
+.card{
+    min-height: 370px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
